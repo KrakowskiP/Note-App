@@ -1,0 +1,126 @@
+.App {
+  text-align: center;
+  color: #333;
+}
+
+/* start buttons */
+button {
+  padding: 7px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.deleteButton,
+.deleteButtonDetails {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 9px 18px;
+}
+
+.deleteButtonDetails {
+  float: right;
+}
+
+.addButton,
+.backButton {
+  background-color: white;
+  color: #333;
+}
+
+.backButton {
+  float: left;
+}
+
+/* end buttons */
+/* start header */
+.upperHeader {
+  background-color: #bdc0c7;
+  text-align: left;
+  padding: 10px 20px;
+}
+/* end header */
+/* start main page */
+#note {
+  resize: none;
+  width: 696px;
+  height: 200px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.noteDescription {
+  text-align: left;
+}
+
+.noteContent {
+  width: 700px;
+  margin: auto;
+}
+
+.leftSideNoteContainer {
+  width: 80%;
+}
+
+.rigthSideNoteContainer {
+  width: 20%;
+  margin: auto;
+}
+
+.allNoteContainer {
+  display: flex;
+}
+
+.singleNoteContainer {
+  background-color: rgb(197, 197, 197);
+  margin: 20px 0px;
+}
+/* end main page */
+/* start date */
+.date {
+  text-align: left;
+  padding: 10px 15px;
+  margin: 0px;
+}
+
+.date:link,
+.date:visited,
+.date:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+.date:hover {
+  color: black;
+}
+
+/* end date */
+/* start deatails page */
+.singleNoteDetails {
+  background-color: rgb(197, 197, 197);
+  width: 700px;
+  margin: auto;
+}
+.noteDetail {
+  width: 700px;
+  margin: auto;
+}
+
+.detailButtonsContainer {
+  display: flex;
+  padding: 20px 0px 10px;
+}
+
+.backButtonContainer {
+  width: 50%;
+}
+
+.deleteButtonContainer {
+  width: 50%;
+}
+/* end details page */
